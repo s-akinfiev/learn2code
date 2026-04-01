@@ -8,7 +8,6 @@ def fact(n):
         a = a * i
     return a
 
-print(fact(n))
 chance = 1 - (fact(365) / ((365 ** n) * fact(365 - n)))
 print(f'Вероятность совпадения дней рождения: {chance:.2%}')
 for i in range(100):

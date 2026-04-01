@@ -1,7 +1,8 @@
-digit = int(input())
-a = digit % 10
-b = (digit % 100)//10
-c = (digit % 1000)//100
-d = digit // 1000
+d = {}
 
-print(a+b+c+d)
+d['a'+'b'] = []
+d['a'+'b'].append(12)
+d['a'+'b'].append(43)
+d[0].append(12333)
+
+print(d['a'+'b'])
